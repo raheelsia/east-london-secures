@@ -1,9 +1,9 @@
 export const SITE = {
   name: "Security Training London",
   centre: "SIA Approved Centre 11461",
-  phone: "+44 20 0000 0000",
-  phoneDisplay: "020 0000 0000",
-  whatsapp: "447000000000",
+  phone: "+447477483497",
+  phoneDisplay: "07477 483497",
+  whatsapp: "447477483497",
   email: "info@securitytraininglondon.co.uk",
   address: "East London (Barking · Ilford · Whitechapel · Rainham)",
 };
