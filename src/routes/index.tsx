@@ -56,7 +56,7 @@ function HomePage() {
 
             <div className="mt-10 grid grid-cols-3 gap-4 border-t border-white/15 pt-6 text-sm">
               {[
-                { i: ShieldCheck, t: "SIA Approved", s: "Centre 11461" },
+                { i: ShieldCheck, t: "SIA Approved", s: "Accredited centre" },
                 { i: RefreshCw, t: "Unlimited Resits", s: "On Door Supervisor" },
                 { i: Award, t: "High Pass Rate", s: "Expert trainers" },
               ].map(({ i: Icon, t, s }) => (
