@@ -8,10 +8,10 @@ import hero from "@/assets/hero-training.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About Us | SIA Approved Centre 11461 — East London" },
+      { title: "About Us | SIA Approved Centre — East London" },
       { name: "description", content: "Security Training London is an SIA Approved Centre delivering affordable, expert SIA & safety training across East London since day one." },
       { property: "og:title", content: "About Us — Security Training London" },
-      { property: "og:description", content: "Affordable, expert SIA training in East London. SIA Approved Centre 11461." },
+      { property: "og:description", content: "Affordable, expert SIA training in East London. SIA Approved Centre." },
     ],
   }),
   component: AboutPage,
@@ -57,7 +57,7 @@ function AboutPage() {
       <section className="bg-surface py-16">
         <div className="container mx-auto grid gap-6 px-4 md:grid-cols-2 lg:grid-cols-4">
           {[
-            { i: ShieldCheck, t: "SIA Approved", d: "Centre 11461 — fully accredited" },
+            { i: ShieldCheck, t: "SIA Approved", d: "Fully accredited centre" },
             { i: Users, t: "Expert Trainers", d: "Industry pros with real experience" },
             { i: Award, t: "98% Pass Rate", d: "Plus unlimited resits on DS" },
             { i: Heart, t: "Job Support", d: "CV help and career guidance" },

@@ -10,7 +10,7 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "SIA Courses East London | Door Supervisor Training £400 | Weekly Start" },
-      { name: "description", content: "SIA Approved Centre 11461. SIA Door Supervisor, CCTV & First Aid courses in Barking, Ilford, Whitechapel & Rainham. Unlimited resits. Book today." },
+      { name: "description", content: "SIA Approved Centre. SIA Door Supervisor, CCTV & First Aid courses in Barking, Ilford, Whitechapel & Rainham. Unlimited resits. Book today." },
       { property: "og:title", content: "SIA Courses East London — Security Training London" },
       { property: "og:description", content: "Weekly SIA Door Supervisor, CCTV & First Aid courses across East London. Best prices, unlimited resits." },
     ],
@@ -56,7 +56,7 @@ function HomePage() {
 
             <div className="mt-10 grid grid-cols-3 gap-4 border-t border-white/15 pt-6 text-sm">
               {[
-                { i: ShieldCheck, t: "SIA Approved", s: "Centre 11461" },
+                { i: ShieldCheck, t: "SIA Approved", s: "Accredited centre" },
                 { i: RefreshCw, t: "Unlimited Resits", s: "On Door Supervisor" },
                 { i: Award, t: "High Pass Rate", s: "Expert trainers" },
               ].map(({ i: Icon, t, s }) => (
@@ -137,7 +137,7 @@ function HomePage() {
           </div>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {[
-              { i: ShieldCheck, t: "SIA Approved Centre 11461", d: "Fully accredited and Ofqual regulated qualifications you can trust." },
+              { i: ShieldCheck, t: "SIA Approved Centre", d: "Fully accredited and Ofqual regulated qualifications you can trust." },
               { i: RefreshCw, t: "Unlimited Resits", d: "Free unlimited resits on Door Supervisor — we get you qualified." },
               { i: Calendar, t: "Weekly Start Dates", d: "New courses every week so you never have to wait long." },
               { i: MapPin, t: "4 East London Venues", d: "Barking, Ilford, Whitechapel & Rainham — close to home." },
