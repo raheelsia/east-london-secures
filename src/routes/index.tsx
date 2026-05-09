@@ -137,7 +137,7 @@ function HomePage() {
           </div>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {[
-              { i: ShieldCheck, t: "SIA Approved Centre 11461", d: "Fully accredited and Ofqual regulated qualifications you can trust." },
+              { i: ShieldCheck, t: "SIA Approved Centre", d: "Fully accredited and Ofqual regulated qualifications you can trust." },
               { i: RefreshCw, t: "Unlimited Resits", d: "Free unlimited resits on Door Supervisor — we get you qualified." },
               { i: Calendar, t: "Weekly Start Dates", d: "New courses every week so you never have to wait long." },
               { i: MapPin, t: "4 East London Venues", d: "Barking, Ilford, Whitechapel & Rainham — close to home." },
