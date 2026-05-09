@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Security Training London" },
+      { name: "description", content: "East London Security Pros offers professional SIA and First Aid training courses in East London." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Security Training London" },
+      { property: "og:description", content: "East London Security Pros offers professional SIA and First Aid training courses in East London." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Security Training London" },
+      { name: "twitter:description", content: "East London Security Pros offers professional SIA and First Aid training courses in East London." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/24f48d1e-d8e3-4eed-b61a-16e821ad0ea6/id-preview-37facca2--1d1ed72d-39f9-410d-add9-343208c017f6.lovable.app-1778367876973.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/24f48d1e-d8e3-4eed-b61a-16e821ad0ea6/id-preview-37facca2--1d1ed72d-39f9-410d-add9-343208c017f6.lovable.app-1778367876973.png" },
     ],
     links: [
       {
