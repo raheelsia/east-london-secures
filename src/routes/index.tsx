@@ -10,7 +10,7 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "SIA Courses East London | Door Supervisor Training £400 | Weekly Start" },
-      { name: "description", content: "SIA Approved Centre 11461. SIA Door Supervisor, CCTV & First Aid courses in Barking, Ilford, Whitechapel & Rainham. Unlimited resits. Book today." },
+      { name: "description", content: "SIA Approved Centre. SIA Door Supervisor, CCTV & First Aid courses in Barking, Ilford, Whitechapel & Rainham. Unlimited resits. Book today." },
       { property: "og:title", content: "SIA Courses East London — Security Training London" },
       { property: "og:description", content: "Weekly SIA Door Supervisor, CCTV & First Aid courses across East London. Best prices, unlimited resits." },
     ],
