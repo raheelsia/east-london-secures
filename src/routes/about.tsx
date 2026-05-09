@@ -57,7 +57,7 @@ function AboutPage() {
       <section className="bg-surface py-16">
         <div className="container mx-auto grid gap-6 px-4 md:grid-cols-2 lg:grid-cols-4">
           {[
-            { i: ShieldCheck, t: "SIA Approved", d: "Centre 11461 — fully accredited" },
+            { i: ShieldCheck, t: "SIA Approved", d: "Fully accredited centre" },
             { i: Users, t: "Expert Trainers", d: "Industry pros with real experience" },
             { i: Award, t: "98% Pass Rate", d: "Plus unlimited resits on DS" },
             { i: Heart, t: "Job Support", d: "CV help and career guidance" },
