@@ -1,6 +1,6 @@
 export const SITE = {
   name: "Security Training London",
-  centre: "SIA Approved Centre 11461",
+  centre: "SIA Approved Centre",
   phone: "+447477483497",
   phoneDisplay: "07477 483497",
   whatsapp: "447477483497",
