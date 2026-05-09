@@ -8,7 +8,20 @@ export const SITE = {
   address: "East London (Barking · Ilford · Whitechapel · Rainham)",
 };
 
-export const COURSES = [
+export interface Course {
+  slug: string;
+  title: string;
+  short: string;
+  price: number;
+  duration: string;
+  badge?: string;
+  image: string;
+  summary: string;
+  highlights: string[];
+  modules: string[];
+}
+
+export const COURSES: Course[] = [
   {
     slug: "sia-door-supervisor",
     title: "SIA Door Supervisor Course",
