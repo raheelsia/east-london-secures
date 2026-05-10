@@ -116,7 +116,7 @@ export const COURSES: Course[] = [
     title: "Level 2 Spectator Safety",
     short: "Spectator Safety",
     price: 100,
-    duration: "2 Days",
+    duration: "1 Day",
     image: "spectator",
     summary:
       "Nationally recognised Level 2 Spectator Safety qualification — ideal for stewards working at stadiums, concerts and large events.",
