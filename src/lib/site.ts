@@ -111,6 +111,27 @@ export const COURSES: Course[] = [
     highlights: ["Practical extinguisher use", "Evacuation procedures", "Risk assessment"],
     modules: ["Fire Safety Law", "Fire Risk Assessment", "Use of Extinguishers", "Evacuation"],
   },
+  {
+    slug: "level-2-spectator-safety",
+    title: "Level 2 Spectator Safety",
+    short: "Spectator Safety",
+    price: 100,
+    duration: "2 Days",
+    image: "spectator",
+    summary:
+      "Nationally recognised Level 2 Spectator Safety qualification — ideal for stewards working at stadiums, concerts and large events.",
+    highlights: [
+      "Recognised by major venues",
+      "Steward role-ready",
+      "Weekly start dates",
+    ],
+    modules: [
+      "Spectator Safety Roles & Responsibilities",
+      "Customer Care at Events",
+      "Emergency & Evacuation Procedures",
+      "Crowd Dynamics & Management",
+    ],
+  },
 ];
 
 export const LOCATIONS = [
