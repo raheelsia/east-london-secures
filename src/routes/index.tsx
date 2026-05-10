@@ -97,7 +97,7 @@ function HomePage() {
       <section className="border-y border-border bg-surface">
         <div className="container mx-auto grid grid-cols-2 gap-6 px-4 py-8 text-center md:grid-cols-4">
           {[
-            { n: "10,000+", l: "Students Trained" },
+            { n: "1,000+", l: "Students Trained" },
             { n: "98%", l: "Pass Rate" },
             { n: "4", l: "East London Venues" },
             { n: "Weekly", l: "Course Start Dates" },
